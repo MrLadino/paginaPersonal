@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 100px;
+    background: rgb(255, 255, 255) url(../images/fondo2.jpg);
+    color: azure;
+    text-align: center;
+    margin: 20px;
+    border: double 10px rgb(255, 255, 255) ;
+}
+
+main{
+    box-shadow: 10px 10px 15px;
+    border-radius: 40px;
+    width: 1200px;
+    height: auto;
+    margin: 30px auto;
+    background-color: rgb(98, 21, 21);
+    padding: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    float: left;
+    margin-block-start: 10px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.hola{
+    padding: 0 0;
+    float: left;
+    margin: 0 30px 30px 30px;
+    margin-block-start: 120px;
+    font-size: 80px;
+    background-color: rgba(176, 19, 19, 0.905);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    background-color: rgb(163, 35, 35);
+    font-size: 80px;
+    color: black;
+}
+
+h2{
+    background-color: rgb(186, 62, 62);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+section{
+    color: azure;
+    
+}
+
+nav {
+    margin: 20px;
+}
+
+ul li{
+    
+    display: inline;
+    padding: 3 30px;
+}
+
+ul li a{
+    text-decoration: dotted;
+    background-color:#ffffff;
+    color: black;
+    padding: 9px 15px;
+    border-radius: 30px;
+}
+
+
+
+footer p{
+    text-align: center;
+    width: 100%;
+}
+
+.redondear{
+    float: inline-end;
+    margin-block-start: 10px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.nose{
+    background-color: cyan;
+    color: black;
+}
+
+
+#lismarco{
+    color: black;
+    border: 3px double rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(185, 67, 67);
+    width: auto;
+    height: 5%;
+    margin: 10px 0 0 0;
+}
+
+#tex{
+    margin-top: 60px ;
+}
